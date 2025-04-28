@@ -1,5 +1,11 @@
 # Phage Genome Plotter 🧬
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/coafione/phage-genome-plotter/blob/main/examples/colab_notebook.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue)](#)
+[![Platform: Linux/Windows/Colab](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20Colab-success)](#)
+[![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 
+---
 **Phage Genome Plotter** is a flexible, customizable toolkit for comparative genomics visualization.  
 It combines **nucleotide-level similarity** (via BLASTn) with **annotation data** (from GenBank .gbk files), allowing users to see not just *where* genomes align, but also *what* biological features (genes, proteins) are involved.
 ---
