@@ -32,7 +32,7 @@ sudo apt install ncbi-blast+  # (or conda install -c bioconda blast)
 ---
 
 
-## 📚 Citation
+### 📚 Citation
 
 If you use **Phage Genome Plotter** for your research, please cite it as:
 
