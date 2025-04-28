@@ -30,7 +30,8 @@ sudo apt install ncbi-blast+  # (or conda install -c bioconda blast)
 
 ---
 
-### 📚 Citation
+
+# 📚 Citation
 If you use **Phage Genome Plotter** for your research, please cite it as:
 
 > Constanza Afione Di Cristofano, *Phage Genome Plotter: a customizable toolkit for comparative genomics visualization*, GitHub (2025). [https://github.com/coafione/phage-genome-plotter](https://github.com/yourusername/phage-genome-plotter)
