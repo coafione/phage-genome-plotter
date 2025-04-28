@@ -1,0 +1,58 @@
+
+Files: 
+
+data/
+├── fasta/           # Your .fasta files
+├── gbk/             # Matching .gbk files
+├── blast_results/   # Auto-generated .txt BLAST output.
+
+
+
+Step 1: Run BLAST
+
+    run_blast_all.py
+
+    Input: FASTA folder
+
+    Output: BLAST .txt files in blast_results/
+
+Step 2: Parse Everything
+
+    parser.py
+
+    Input: .gbk files and blast_results/
+
+    Output: a parsed_data.json
+
+Step 3: Plot
+
+    plotter.py
+
+    Input: parsed_data.json
+
+    Output: .png or .svg figure
+    
+    
+    
+    
+Example
+
+    Run BLAST on your FASTA files
+
+python3 scripts/run_blast_all.py --fasta_dir data/fasta/
+
+    Parse GenBank files + BLAST results
+
+python3 scripts/parser.py --gbk_dir data/gbk/ --blast_dir data/blast_results/ --fasta_dir data/fasta/
+
+    Plot your genomes
+
+python3 scripts/plotter.py --input_json parsed_data.json --output_file comparison.svg
+
+Parameter       | Default | Description
+--colormap      | viridis | BLAST identity color scheme
+--fig_width     | 18      | Figure width in inches
+--fig_height    | 14      | Figure height in inches
+--bar_thickness | 6       | Genome bar thickness
+--font_size     | 10      | Font size for labels
+
