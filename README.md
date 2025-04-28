@@ -1,5 +1,5 @@
 # Phage Genome Plotter 🧬
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/coafione/phage-genome-plotter/blob/main/example/Phage-genome-plotter.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/coafione/phage-genome-plotter/main/example/Phage-genome-plotter.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python: 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue)](#)
 [![Platform: Linux/Windows/Colab](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20Colab-success)](#)
