@@ -1,7 +1,7 @@
 # Phage Genome Plotter 🧬
 
-Visualize comparative genomics of phages (or small genomes) with BLASTn and GenBank annotations — fully customizable, scalable, and publication-ready.
-
+**Phage Genome Plotter** is a flexible, customizable toolkit for comparative genomics visualization.  
+It combines **nucleotide-level similarity** (via BLASTn) with **annotation data** (from GenBank .gbk files), allowing users to see not just *where* genomes align, but also *what* biological features (genes, proteins) are involved.
 ---
 
 ## ✨ Features
