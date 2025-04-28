@@ -6,8 +6,10 @@
 [![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)](#)
 
 ---
+
 **Phage Genome Plotter** is a flexible, customizable toolkit for comparative genomics visualization.  
 It combines **nucleotide-level similarity** (via BLASTn) with **annotation data** (from GenBank .gbk files), allowing users to see not just *where* genomes align, but also *what* biological features (genes, proteins) are involved.
+
 ---
 
 ## ✨ Features
@@ -27,8 +29,7 @@ It combines **nucleotide-level similarity** (via BLASTn) with **annotation data*
 pip install biopython matplotlib
 sudo apt install ncbi-blast+  # (or conda install -c bioconda blast)
 
-
-
+---
 
 ## 📚 Citation
 
@@ -37,4 +38,3 @@ If you use **Phage Genome Plotter** for your research, please cite it as:
 > Constanza Afione Di Cristofano, *Phage Genome Plotter: a customizable toolkit for comparative genomics visualization*, GitHub (2025). [https://github.com/coafione/phage-genome-plotter](https://github.com/yourusername/phage-genome-plotter)
 
 Thank you for supporting open science! 🧬✨
-
