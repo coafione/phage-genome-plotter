@@ -8,8 +8,9 @@ from Bio import SeqIO
 
 def parse_gbk_files(gbk_dir, valid_ids):
     data = {}
+    valid_gbk_exts = [".gbk", ".gbff", ".gb"]
     for file in os.listdir(gbk_dir):
-        if not file.endswith(".gbk"):
+        if not any(file.endswith(ext) for ext in valid_gbk_exts):
             continue
         phage_id = Path(file).stem
         if phage_id not in valid_ids:
